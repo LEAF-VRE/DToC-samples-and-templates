@@ -1,6 +1,6 @@
 {
     "inputs": [
-        "https://raw.githubusercontent.com/djakacki/training/main/dalloway_exercise_dtoc.xml"
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-samples-and-templates/refs/heads/main/dalloway_dtoc.xml"
     ],
     "documents": "//div[@type='story']",
     "ignoreNamespace": true,
