@@ -1,0 +1,301 @@
+{
+    "editionTitle": "Regenerations",
+    "editionSubtitle": "Canadian Women's Writing",
+    "ignoreNamespace": true,
+    "documents": "//div[@type=('preface', 'chapter', 'afterword', 'contributors', 'semantic_tagging')]",
+    "documentContent": "",
+    "documentTitle": "head",
+    "documentAuthor": "docAuthor",
+    "indexDocument": "//div[@type='index']",
+    "documentImages": "//graphic[@url]",
+    "documentNotes": "//note",
+    "documentLinks": "//ref[contains(@target,'http')]",
+    "inputs": [
+        "https://raw.githubusercontent.com/ilovan/Regenerations-DToC/refs/heads/main/Regenerations_fully_tagged_v17.xml"
+    ],
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//ref[@target='anthologization']",
+                "label": "anthologization"
+            },
+            {
+                "xpath": "//ref[@target='archival_location']",
+                "label": "archival location"
+            },
+            {
+                "xpath": "//ref[@target='archive']",
+                "label": "archive"
+            },
+            {
+                "xpath": "//ref[@target='attitudes_to_women_writing']",
+                "label": "attitudes to women writing"
+            },
+            {
+                "xpath": "//ref[@target='authority']",
+                "label": "authority"
+            },
+            {
+                "xpath": "//ref[@target='authorship']",
+                "label": "authorship"
+            },
+            {
+                "xpath": "//ref[@target='canon_formation']",
+                "label": "canon formation"
+            },
+            {
+                "xpath": "//ref[@target='characterization']",
+                "label": "characterization"
+            },
+            {
+                "xpath": "//ref[@target='class_issue']",
+                "label": "class issue"
+            },
+            {
+                "xpath": "//ref[@target='close_reading']",
+                "label": "close reading"
+            },
+            {
+                "xpath": "//ref[@target='collaboration']",
+                "label": "collaboration"
+            },
+            {
+                "xpath": "//ref[@target='critique_of_canon']",
+                "label": "critique of canon"
+            },
+            {
+                "xpath": "//ref[@target='economics']",
+                "label": "economics"
+            },
+            {
+                "xpath": "//ref[@target='editions']",
+                "label": "editions"
+            },
+            {
+                "xpath": "//ref[@target='education']",
+                "label": "education"
+            },
+            {
+                "xpath": "//ref[@target='gender_issue']",
+                "label": "gender issue"
+            },
+            {
+                "xpath": "//ref[@target='genre_fiction']",
+                "label": "genre fiction"
+            },
+            {
+                "xpath": "//ref[@target='genre_issue']",
+                "label": "genre issue"
+            },
+            {
+                "xpath": "//ref[@target='genre_journalism']",
+                "label": "genre journalism"
+            },
+            {
+                "xpath": "//ref[@target='genre_lifeWriting']",
+                "label": "genre life writing"
+            },
+            {
+                "xpath": "//ref[@target='genre_music']",
+                "label": "genre music"
+            },
+            {
+                "xpath": "//ref[@target='genre_non-fiction']",
+                "label": "genre non-fiction"
+            },
+            {
+                "xpath": "//ref[@target='genre_novel']",
+                "label": "genre novel"
+            },
+            {
+                "xpath": "//ref[@target='genre_performance']",
+                "label": "genre performance"
+            },
+            {
+                "xpath": "//ref[@target='genre_poetry']",
+                "label": "genre poetry"
+            },
+            {
+                "xpath": "//ref[@target='genre_scholarlyWriting']",
+                "label": "genre scholarly writing"
+            },
+            {
+                "xpath": "//ref[@target='genre_short_story']",
+                "label": "genre short story"
+            },
+            {
+                "xpath": "//ref[@target='health_issue']",
+                "label": "health issue"
+            },
+            {
+                "xpath": "//ref[@target='historical_oppression']",
+                "label": "historical oppression"
+            },
+            {
+                "xpath": "//ref[@target='history']",
+                "label": "history"
+            },
+            {
+                "xpath": "//ref[@target='intellectual_history']",
+                "label": "intellectual history"
+            },
+            {
+                "xpath": "//ref[@target='intertextuality']",
+                "label": "intertextuality"
+            },
+            {
+                "xpath": "//ref[contains(@target,'http')]",
+                "label": "link",
+                "usage": "link"
+            },
+            {
+                "xpath": "//ref[@target='literary_schools']",
+                "label": "literary schools"
+            },
+            {
+                "xpath": "//ref[@target='manuscript_history']",
+                "label": "manuscript history"
+            },
+            {
+                "xpath": "//ref[@target='men_writing']",
+                "label": "men writing"
+            },
+            {
+                "xpath": "//ref[@target='methodology']",
+                "label": "methodology"
+            },
+            {
+                "xpath": "//ref[@target='motif']",
+                "label": "motif"
+            },
+            {
+                "xpath": "//ref[@target='nationality_issue']",
+                "label": "nationality issue"
+            },
+            {
+                "xpath": "//ref[@target='non-book_media']",
+                "label": "non-book media"
+            },
+            {
+                "xpath": "//note",
+                "label": "note",
+                "usage": "note"
+            },
+            {
+                "xpath": "//ref[@target='place_of_publication']",
+                "label": "place of publication"
+            },
+            {
+                "xpath": "//ref[@target='politics']",
+                "label": "politics"
+            },
+            {
+                "xpath": "//ref[@target='race_and_ethnicity']",
+                "label": "race and ethnicity"
+            },
+            {
+                "xpath": "//ref[@target='recognitions']",
+                "label": "recognitions"
+            },
+            {
+                "xpath": "//ref[@target='religion']",
+                "label": "religion"
+            },
+            {
+                "xpath": "//ref[@target='representation_of_men']",
+                "label": "representation of men"
+            },
+            {
+                "xpath": "//ref[@target='representation_of_women']",
+                "label": "representation of women"
+            },
+            {
+                "xpath": "//ref[@target='response_formal']",
+                "label": "response formal"
+            },
+            {
+                "xpath": "//ref[@target='response_gendered']",
+                "label": "response gendered"
+            },
+            {
+                "xpath": "//ref[@target='response_informal']",
+                "label": "response informal"
+            },
+            {
+                "xpath": "//ref[@target='response_re-evaluation']",
+                "label": "response re-evaluation"
+            },
+            {
+                "xpath": "//ref[@target='sexuality']",
+                "label": "sexuality"
+            },
+            {
+                "xpath": "//ref[@target='social_movement']",
+                "label": "social movement"
+            },
+            {
+                "xpath": "//ref[@target='technology']",
+                "label": "technology"
+            },
+            {
+                "xpath": "//ref[@target='textual_agency']",
+                "label": "textual agency"
+            },
+            {
+                "xpath": "//ref[@target='textual_strategies']",
+                "label": "textual strategies"
+            },
+            {
+                "xpath": "//ref[@target='theme_or_topic']",
+                "label": "theme or thopic"
+            },
+            {
+                "xpath": "//ref[@target='theory']",
+                "label": "theory"
+            },
+            {
+                "xpath": "//ref[@target='violence']",
+                "label": "violence"
+            },
+            {
+                "xpath": "//ref[@target='voice_or_narration']",
+                "label": "voice or narration"
+            },
+            {
+                "xpath": "//ref[@target='women_writing']",
+                "label": "women writing"
+            },
+            {
+                "xpath": "//ref[@target='writing_climate']",
+                "label": "writing climate"
+            },
+            {
+                "xpath": "//graphic[@url]",
+                "label": "image",
+                "usage": "image"
+            }
+        ],
+        "toc": [
+            "a8a40f11682f3b7a1a7cc41feb5e41f864a85502f34f2a939d0fc37f11eb75af",
+            "5ca7297a754c0bb39e61c5a1b6a7f191261279609087281abf55f5ed5c9080e9",
+            "84af787e87f1f004a0a420c074dd31d74f7d43b90c1bb048557b4de9aab0d266",
+            "d979c139ea60b1f3e3f6929cc22756e325803219e56ce1b1eafb6963e7fca186",
+            "c01057638aa8a8fce3d778c5606c85d0490523d4dbea362f60b882c2c6e40238",
+            "163c6a90c02c8b2f20e172aee5ed97b082c06a3ca5f2ca5cade65a262289eb68",
+            "77cb73085226a9753b40ad09cbdc9367b56759181b3d53a76bb1ad1f40591568",
+            "73fb5152cbab577fc2524713bfeb1d51d05d6ef73d7e5cdf8b0085267c9b2fe0",
+            "8648072a1d50944da4d49889af4e0287bd19f247936c48b7d87f2f92dea1f65d",
+            "4bb3b0c7166677127617824c08f44fe95dcf2bcec76d939c9e01a524aa70e418",
+            "e065ed82e4c7dbb24c25feb98c4a864b1de3e95212f1127afff8b787524a3ebf",
+            "d3e35f90ece6e155aef95bbc880bd31d6daa8186db9ab3d14775324193f6d87b",
+            "89ef2de01f460898fbfa2e337f1971365df80f3934a7533f65b1a71f9f6f7d60",
+            "67ad3c65c3d3586ba49d8b1e36b484a76041e9ec2aa8efb5e279217221252058",
+            "319005e5a2bbf2be75ea1a59c3883b38707f66aaf64489bfa2a5a7cd2f3b5248",
+            "14d7c17a9a8a0241ba2ec5ae37e5667ac4947d22f0da105c734baa6c1ec7ff93",
+            "4c8f2ff62e883fa2c3ad9751519c2b1e1ff87c9d5300a7023d308c9815a32649",
+            "0f6244f0ad1bc34a754b1793e7cf2548111a94890f59a92ddc52f91e48c60996",
+            "a43773a2fe847ed52e12f83aa9d6f251e507c74133d1f66e0a27806032b56e10",
+            "75aabf9d5f10be4f94ce0caedd5c2cecbee25b62c75494f235c6e19a43a11a16"
+        ]
+    }
+}
