@@ -11,7 +11,7 @@
     "documentNotes": "//note",
     "documentLinks": "//ref[contains(@target,'http')]",
     "inputs": [
-        "https://raw.githubusercontent.com/ilovan/Regenerations-DToC/refs/heads/main/Regenerations_fully_tagged_v17.xml"
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-samples-and-templates/refs/heads/main/Regenerations_fully_tagged_v17.xml"
     ],
     "curation": {
         "markup": [
